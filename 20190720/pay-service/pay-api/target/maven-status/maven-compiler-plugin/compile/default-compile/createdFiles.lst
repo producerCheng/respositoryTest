@@ -1,0 +1,3 @@
+com\gupaoedu\dubbo\App.class
+com\gupaoedu\dubbo\IPayService.class
+com\gupaoedu\dubbo\IQueryService.class

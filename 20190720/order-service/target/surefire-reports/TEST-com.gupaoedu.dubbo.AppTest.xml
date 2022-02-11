@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.gupaoedu.dubbo.AppTest" time="0.043" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\workspace\20190720\order-service\target\test-classes;D:\workspace\20190720\order-service\target\classes;E:\repository\junit\junit\4.11\junit-4.11.jar;E:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\repository\com\gupaoedu\dubbo\pay-api\1.0-SNAPSHOT\pay-api-1.0-SNAPSHOT.jar;E:\repository\org\apache\dubbo\dubbo\2.7.2\dubbo-2.7.2.jar;E:\repository\org\springframework\spring-context\4.3.16.RELEASE\spring-context-4.3.16.RELEASE.jar;E:\repository\org\springframework\spring-aop\4.3.16.RELEASE\spring-aop-4.3.16.RELEASE.jar;E:\repository\org\springframework\spring-beans\4.3.16.RELEASE\spring-beans-4.3.16.RELEASE.jar;E:\repository\org\springframework\spring-core\4.3.16.RELEASE\spring-core-4.3.16.RELEASE.jar;E:\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\repository\org\springframework\spring-expression\4.3.16.RELEASE\spring-expression-4.3.16.RELEASE.jar;E:\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;E:\repository\io\netty\netty-all\4.1.25.Final\netty-all-4.1.25.Final.jar;E:\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;E:\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20.jar;E:\repository\org\apache\curator\curator-framework\4.0.1\curator-framework-4.0.1.jar;E:\repository\org\apache\curator\curator-client\4.0.1\curator-client-4.0.1.jar;E:\repository\org\apache\zookeeper\zookeeper\3.5.3-beta\zookeeper-3.5.3-beta.jar;E:\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;E:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;E:\repository\com\google\guava\guava\20.0\guava-20.0.jar;E:\repository\org\slf4j\slf4j-api\1.7.6\slf4j-api-1.7.6.jar;E:\repository\org\apache\curator\curator-recipes\4.0.1\curator-recipes-4.0.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="E:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\mic\AppData\Local\Temp\surefire1609972346228350042\surefirebooter3621997900612961661.jar C:\Users\mic\AppData\Local\Temp\surefire1609972346228350042 2019-07-20T21-19-31_014-jvmRun1 surefire873279228155367986tmp surefire_08366842805208131253tmp"/>
+    <property name="surefire.test.class.path" value="D:\workspace\20190720\order-service\target\test-classes;D:\workspace\20190720\order-service\target\classes;E:\repository\junit\junit\4.11\junit-4.11.jar;E:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\repository\com\gupaoedu\dubbo\pay-api\1.0-SNAPSHOT\pay-api-1.0-SNAPSHOT.jar;E:\repository\org\apache\dubbo\dubbo\2.7.2\dubbo-2.7.2.jar;E:\repository\org\springframework\spring-context\4.3.16.RELEASE\spring-context-4.3.16.RELEASE.jar;E:\repository\org\springframework\spring-aop\4.3.16.RELEASE\spring-aop-4.3.16.RELEASE.jar;E:\repository\org\springframework\spring-beans\4.3.16.RELEASE\spring-beans-4.3.16.RELEASE.jar;E:\repository\org\springframework\spring-core\4.3.16.RELEASE\spring-core-4.3.16.RELEASE.jar;E:\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\repository\org\springframework\spring-expression\4.3.16.RELEASE\spring-expression-4.3.16.RELEASE.jar;E:\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;E:\repository\io\netty\netty-all\4.1.25.Final\netty-all-4.1.25.Final.jar;E:\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;E:\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20.jar;E:\repository\org\apache\curator\curator-framework\4.0.1\curator-framework-4.0.1.jar;E:\repository\org\apache\curator\curator-client\4.0.1\curator-client-4.0.1.jar;E:\repository\org\apache\zookeeper\zookeeper\3.5.3-beta\zookeeper-3.5.3-beta.jar;E:\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;E:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;E:\repository\com\google\guava\guava\20.0\guava-20.0.jar;E:\repository\org\slf4j\slf4j-api\1.7.6\slf4j-api-1.7.6.jar;E:\repository\org\apache\curator\curator-recipes\4.0.1\curator-recipes-4.0.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mic"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="E:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="basedir" value="D:\workspace\20190720\order-service"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\mic\AppData\Local\Temp\surefire1609972346228350042\surefirebooter3621997900612961661.jar"/>
+    <property name="sun.boot.class.path" value="E:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;E:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;E:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;E:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;E:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;E:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;E:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;E:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="user.name" value="mic"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="E:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="E:\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mic\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.dir" value="D:\workspace\20190720\order-service"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="idea.version2019.1.3" value="true"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="E:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Program Files\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\software\apache-maven-3.3.9\bin;%GRADE_HOME%\bin;E:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Git\cmd;E:\software\apache-ant-1.10.1\bin;C:\Program Files\Pandoc\;C:\Users\mic\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.ext.dirs" value="E:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.gupaoedu.dubbo.AppTest" time="0"/>
+</testsuite>
